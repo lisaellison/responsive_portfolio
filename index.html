@@ -11,12 +11,12 @@
 <!--all-encompassing container-->
 <body class="container-fluid" style="background-color: lightgray;">
   
-  <!-- Navbar with header & list with three links-->
+  <!-- Navbar with header & list with three links. Cannot make the 2nd column break down to the next line. Grrr.-->
   <nav class="row navbar navbar-expand bg-dark navbar-dark">
-    <header class="col-md-9 navbar-text" style="font-family: 'Alegreya Sans SC', sans-serif;">
+    <header class="col-xs-12 col-lg-9 navbar-text" style="font-family: 'Alegreya Sans SC', sans-serif;">
       Lisa Ellison 
     </header>
-    <ul class="col- navbar-nav nav-tabs text-sm-center" style="font-family: 'Alegreya Sans SC', sans-serif;">
+    <ul class="col-xs-12 col-lg-3 navbar-nav nav-tabs text-sm-center" style="font-family: 'Alegreya Sans SC', sans-serif;">
       <li class="nav-item">
         <a class="nav-link" href="index.html">About</a>
       </li>
@@ -29,25 +29,26 @@
     </ul>
   </nav>
 
-  <header class="container-fluid align-middle shadow-sm p-4 mb-4 bg-secondary text-white"
+  <!-- Page header -->
+  <header class="row shadow-sm p-4 mb-4 bg-secondary text-white"
     style="font-family: 'Alegreya Sans SC', sans-serif;">
     <h1>About me</h1></header>
 
-  <main class="container-fluid">
+  <!-- 2nd row, with pic in column left/top & bio on right/bottom. Position image (padding) for each size setting. -->
     <main class="row">
-      <main class="col-md-2">
-        <img src="pic small.jpg" alt="head shot of Lisa Ellison" class="img-thumbnail"></img>
+      <main class="col-xs-12 col-lg-2">
+        <img src="pic.jpg" alt="head shot of Lisa Ellison" class="img-thumbnail fluid"></img>
         <figcaption class="figure-caption" style="font-family: 'Alegreya Sans SC', sans-serif;">Photo by Denise Cerniglia, 2016</figcaption>
       </main>
-      <main class="col-md-10" style="font-family: 'Roboto', sans-serif;">
+      <main class="col-xs-12 col-lg-10" style="font-family: 'Roboto', sans-serif;">
       Lisa is a classics instructor at East Carolina University where she regularly teaches beginning & intermediate Latin and the literature of ancient Greece & Rome in translation. She serves on several committees and maintains the webpages for two small multi-disciplinary programs: Classical Studies and Great Books.
-      </br></br>Lisa wrote her first programs as a child, creating games using BASIC on an Atari computer her dad enjoyed taking apart & putting back together. Though she hasn't been actively programming since then, she has remained an active user of technology.
-      </br></br>In her free time, Lisa enjoys baking, taking her cats for "walks" and reading. You can check out her <a href="https://www.goodreads.com/user/show/3862448-lisa" target="_blank">Goodreads profile</a> if you'd like to try to understand her literary tastes.
+      </br></br>Lisa wrote her first programs as a child, creating games using BASIC on an Atari computer her dad enjoyed taking apart & putting back together again on the kitchen table. Though she hasn't been actively programming since then, she has remained an active user of technology.
+      </br></br>In her free time, Lisa enjoys baking bread. She does not like eating it all the much though. If you're curious to know what sorts of things she reads, check out her <a href="https://www.goodreads.com/user/show/3862448-lisa" target="_blank">Goodreads profile</a>.
       </br></br>It's Lisa's goal to use artfully crafted programs to bring classics and the humanities to more humans.</p>
       </main>
     </main>      
-  </main>
   
+  <!--Sticky footer-->
   <footer id="sticky-footer" class="py-1 bg-secondary text-white-50">
     <div class="container text-center" style="font-family: 'Alegreya Sans SC', sans-serif;">
       <small>&copy Lisa Ellison, May 2020</small>
