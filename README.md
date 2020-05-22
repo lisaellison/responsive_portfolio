@@ -10,4 +10,7 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 - pushed nav links all the way to the right with a reversed flex row
 
 ## Phase 2: Portfolio
+- created basic cards with images
+    * repair buttons (2) and links (3)
+    * add padding between header & cards and between cards & footer
 
