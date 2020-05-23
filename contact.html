@@ -10,9 +10,9 @@
 <!--all-encompassing container-->
 <body class="container-fluid" style="background-color: lightgray;">
   
-  <!-- Navbar with header & list with three links. Cannot make the 2nd column break down to the next line. Grrr.-->
+  <!--Navbar with header & list with three links. Cannot make the 2nd column break down to the next line. Grrr.-->
   <nav class="row navbar navbar-expand bg-dark navbar-dark">
-    <header class="col-xs-12 col-lg-9 navbar-text" style="font-family: 'Alegreya Sans SC', sans-serif;">
+    <header class="col-xs-12 col-lg-9 navbar-text" style="font-family: 'Alegreya Sans SC', sans-serif; font-size: larger;">
       Lisa Ellison 
     </header>
     <ul class="col-xs-12 col-lg-3 navbar-nav nav-tabs text-sm-center d-flex flex-row-reverse" style="font-family: 'Alegreya Sans SC', sans-serif;">
@@ -27,13 +27,29 @@
       </li>
     </ul>
   </nav>
-  
-  <!-- Page header -->
+
+  <!--Page header -->
   <header class="row shadow-sm p-4 mb-4 bg-secondary text-white"
     style="font-family: 'Alegreya Sans SC', sans-serif;">
     <h1>Contact</h1></header>
 
-  <!--Sticky footer-->
+  <!--Contact form design-->
+  
+  <form class="container">
+  <form class="card bg-secondary">
+    <h4 style="font-family: 'Alegreya Sans SC', sans-serif;">
+      <label class="card-body" for="name">Your name</label>
+        <input type="text" id="name" name="name"><br><br>
+      <label class="card-body" for="email">Your email</label>
+        <input type="email" id="email" name="email"><br><br>
+      <label class="card-body" for="message">Your message</label>
+        <textarea type="text" id="message" name="message"></textarea><br><br>
+    </h4>
+    <a href="" class="btn btn-info mx-1" target="_blank">Submit</a><br><br>
+  </form>
+  </form>
+
+    <!--Sticky footer-->
   <footer id="sticky-footer" class="py-1 bg-secondary text-white-50">
     <div class="container text-center" style="font-family: 'Alegreya Sans SC', sans-serif;">
       <small>&copy Lisa Ellison, May 2020</small>

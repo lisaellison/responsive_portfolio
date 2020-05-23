@@ -11,9 +11,13 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 
 ## Phase 2: Portfolio
 - created basic cards with images
-    * created buttons (2) and links (3)
-    * added padding between header & cards and between cards & footer
-    * fought with columns, applied strethched-links to three "forthcoming" blocks. Not confident columns are set up correctly.
+- created buttons (2) and links (3)
+- added padding between header & cards and between cards & footer
+- fought with columns, applied strethched-links to three "forthcoming" blocks. Not confident columns are set up correctly.
 
+## Phase 3: Contact
+- make outline of funcitonal contact form
+- created two small text boxes and one textarea box for information
+- created a submit button
 
 
