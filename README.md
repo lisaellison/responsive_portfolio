@@ -20,4 +20,6 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 - created two small text boxes and one textarea box for information
 - created a submit button
 
-
+## Clean-up
+- put all images in a folder
+- worked on style issues
