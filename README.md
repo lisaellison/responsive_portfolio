@@ -29,3 +29,6 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 - make the header navbar drop down to a 2nd line for xs screen size
 - center buttons on 1st two portfolio cards
 - make contact form functional
+
+## Comment on HTML validation 
+- most trouble came from HTML tags not being properly named or nested
