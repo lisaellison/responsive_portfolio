@@ -23,3 +23,9 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 ## Clean-up
 - put all images in a folder
 - worked on style issues
+
+## Future improvements
+- improve margin on right side of About page (text)
+- make the header navbar drop down to a 2nd line for xs screen size
+- center buttons on 1st two portfolio cards
+- make contact form functional
