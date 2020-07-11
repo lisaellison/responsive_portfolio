@@ -1,105 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>LE Responsive Portfolio</title>
-</head>
+  </head>
 
-<!--all-encompassing container-->
-<body class="container-fluid" style="background-color: lightgray;">
-  
-  <!-- Navbar with header & list with three links. Cannot make the 2nd column break down to the next line. Grrr.-->
-  <nav class="row navbar navbar-expand bg-dark navbar-dark">
-    <header class="col-xs-12 col-lg-9 navbar-text" style="font-family: 'Alegreya Sans SC', sans-serif; font-size: larger;">
-      Lisa Ellison 
+  <!--all-encompassing container-->
+  <body class="container-fluid" style="background-color: lightgray;">
+    <!-- Navbar with header & list with three links. Cannot make the 2nd column break down to the next line. Grrr.-->
+    <nav class="row navbar navbar-expand bg-dark navbar-dark">
+      <header
+        class="col-xs-12 col-lg-9 navbar-text"
+        style="font-family: 'Alegreya Sans SC', sans-serif; font-size: larger;"
+      >
+        Lisa Ellison
+      </header>
+      <ul
+        class="col-xs-12 col-lg-3 navbar-nav nav-tabs text-sm-center d-flex flex-row-reverse"
+        style="font-family: 'Alegreya Sans SC', sans-serif;"
+      >
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page header -->
+    <header
+      class="row shadow-sm p-4 mb-4 bg-secondary text-white"
+      style="font-family: 'Alegreya Sans SC', sans-serif;"
+    >
+      <h1>Portfolio</h1>
     </header>
-    <ul class="col-xs-12 col-lg-3 navbar-nav nav-tabs text-sm-center d-flex flex-row-reverse" style="font-family: 'Alegreya Sans SC', sans-serif;">
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-    </ul>
-  </nav>
 
-  <!-- Page header -->
-  <header class="row shadow-sm p-4 mb-4 bg-secondary text-white"
-    style="font-family: 'Alegreya Sans SC', sans-serif;">
-    <h1>Portfolio</h1></header>
+    <!--Project card deck-->
+    <main class="row">
+      <div class="card-columns">
+        <section class="col-xs-12 col-s-6 col-l-2">
+          <section class="card bg-secondary mx-auto">
+            <img
+              class="card-img-top img-thumbnail"
+              src="images/artViaMusic.png"
+              alt="Screenshot of ArtViaMusic"
+            />
+            <header class="card-body text-center">
+              <h4 class="card-title">Art Via Music</h4>
+              <p class="card-text">
+                Using keywords identified in a song, see what image in the
+                Harvard Art Museum's collection is the closest match.
+              </p>
+              <a
+                href="https://lisaellison.github.io/ArtViaMusic/"
+                class="btn btn-info mx-auto"
+                target="_blank"
+                >Art Via Music</a
+              >
+            </header>
+          </section>
+        </section>
 
-  <!--Project card deck-->
-  <main class="row">
-    <div class="card-columns">
-    
-    <section class="col-xs-12 col-s-6 col-l-3">
-    <section class="card bg-secondary mx-auto">
-      <img class="card-img-top" src="images/FoxGame.png" alt="screenshot from Fox's victory over the rabbit">
-      <header class="card-body text-center">
-        <h4 class="card-title">Fox's Delightful Afternoon</h4>
-        <p class="card-text">Help a fox catch a rabbit in this simple Scratch game.</p>
-        <a href="https://scratch.mit.edu/projects/391063574" class="btn btn-info mx-auto" target="_blank">Play Game</a>
-      </header>
-    </section>
-    </section>
-    
-    <section class="col-xs-12 col-s-6 col-l-3">
-    <section class="card bg-secondary mx-auto">
-        <img class="card-img-top" src="images/turkeyvulture.jpg" alt="Lisa's Github profile picture, a close-up of a turkey vulture">
-      <header class="card-body text-center">
-        <h4 class="card-title">Github Profile</h4>
-        <p class="card-text">See Lisa's nascent body of Github repositories.</p>
-        <a href="https://github.com/lisaellison" class="btn btn-info mx-auto" target="_blank">Go to Github</a>
-      </header>
-    </section>
-    </section>
+        <section class="col-xs-12 col-s-6 col-l-2">
+          <section class="card bg-secondary mx-auto">
+            <img
+              class="card-img-top"
+              src="images/weatherForecast.png"
+              alt="screenshot of trip forecast"
+            />
+            <header class="card-body text-center">
+              <h4 class="card-title">Trip Forecast</h4>
+              <p class="card-text">
+                See the current & 5-day conditions for the city of your choice.
+                Remembers previously searched cities.
+              </p>
+              <a
+                href="http://lisaellison.github.io/trip-forecast"
+                class="btn btn-info mx-auto"
+                target="_blank"
+                >Workday Scheduler</a
+              >
+            </header>
+          </section>
+        </section>
 
-    <section class="col-xs-12 col-s-6 col-l-3">
-    <section class="card bg-secondary mx-auto">
-      <img class="card-img-top" src="images/wildflowers.jpg" alt="photograph of wildflowers in the Spring">
-      <header class="card-body text-center">
-        <h4 class="card-title">Forthcoming!</h4>
-        <p class="card-text">While you wait, enjoy this <a class="card-link textLinkDark stretched-link" href="https://deniseecerniglia.com/welcome" target="_blank">photograph of wildflowers by Denise Cerniglia</a>.</p>
-      </header>
-    </section>
-    </section>
+        <section class="col-xs-12 col-s-6 col-l-2">
+          <section class="card bg-secondary mx-auto">
+            <img
+              class="card-img-top"
+              src="images/work day scheduler.png"
+              alt="screen shot of work day scheduler"
+            />
+            <header class="card-body text-center">
+              <h4 class="card-title">Workday Scheduler</h4>
+              <p class="card-text">
+                Your tasks for the day, saved.
+              </p>
+              <a
+                href="https://lisaellison.github.io/day_scheduler/"
+                class="btn btn-info mx-auto"
+                target="_blank"
+                >Workday Scheduler</a
+              >
+            </header>
+          </section>
+        </section>
 
-    <section class="col-xs-12 col-s-6 col-l-3">
-    <section class="card bg-secondary mx-auto">
-      <img class="card-img-top" src="images/SJ.jpg" alt="energetic portrait of young woman in business attire">
-      <header class="card-body text-center">
-        <h4 class="card-title">Forthcoming!</h4>
-        <p class="card-text">While you wait, enjoy this <a class="card-link textLinkDark stretched-link" href="https://deniseecerniglia.com/welcome" target="_blank">awesome portrait by Denise Cerniglia</a>.</p>
-      </header>
-    </section>
-    </section>
+        <section class="col-xs-12 col-s-6 col-l-2">
+          <section class="card bg-secondary mx-auto">
+            <img
+              class="card-img-top"
+              src="images/FoxGame.png"
+              alt="screenshot from Fox's victory over the rabbit"
+            />
+            <header class="card-body text-center">
+              <h4 class="card-title">Fox's Delightful Afternoon</h4>
+              <p class="card-text">
+                Help a fox catch a rabbit in this simple Scratch game.
+              </p>
+              <a
+                href="https://scratch.mit.edu/projects/391063574"
+                class="btn btn-info mx-auto"
+                target="_blank"
+                >Play Game</a
+              >
+            </header>
+          </section>
+        </section>
 
-    <section class="col-xs-12 col-s-6 col-l-3">
-    <section class="card bg-secondary mx-auto">
-      <img class="card-img-top" src="images/bonbonniere.jpg" alt="black and white photograph of a diner in NYC">
-      <header class="card-body text-center">
-        <h4 class="card-title">Forthcoming!</h4>
-        <p class="card-text">While you wait, enjoy this nostalgic black & white photograph of a <a class="textLinkDark card-link stretched-link" href="https://deniseecerniglia.com/welcome" target="_blank">diner in New York City's West Village by Denise Cerniglia</a>.</p>
-      </header>
-    </section>    
-    </section>
+        <section class="col-xs-12 col-s-6 col-l-2">
+          <section class="card bg-secondary mx-auto">
+            <img
+              class="card-img-top"
+              src="images/turkeyvulture.jpg"
+              alt="Lisa's Github profile picture, a close-up of a turkey vulture"
+            />
+            <header class="card-body text-center">
+              <h4 class="card-title">Github Profile</h4>
+              <p class="card-text">
+                See Lisa's nascent body of Github repositories.
+              </p>
+              <a
+                href="https://github.com/lisaellison"
+                class="btn btn-info mx-auto"
+                target="_blank"
+                >Go to Github</a
+              >
+            </header>
+          </section>
+        </section>
+      </div>
+    </main>
 
-    </div>
-  </main>
-
-  <!--Sticky footer-->
-  <footer id="sticky-footer" class="py-1 bg-secondary text-white-50">
-    <div class="container text-center" style="font-family: 'Alegreya Sans SC', sans-serif;">
-      <small>&copy; Lisa Ellison, May 2020</small>
-    </div>  
-  </footer> 
-
-</body>
+    <!--Sticky footer-->
+    <footer id="sticky-footer" class="py-1 bg-secondary text-white-50">
+      <div
+        class="container text-center"
+        style="font-family: 'Alegreya Sans SC', sans-serif;"
+      >
+        <small>&copy; Lisa Ellison, May 2020</small>
+      </div>
+    </footer>
+  </body>
 </html>
