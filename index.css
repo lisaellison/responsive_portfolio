@@ -1,11 +1,12 @@
 p {
-    margin-right: 1rem;
+  margin-right: 1rem;
+  font-size: large;
 }
 
 .textLink {
-    color: #a641b8;
+  color: #a641b8;
 }
 
 .textLinkDark {
-    color: #53205b;
+  color: #53205b;
 }
