@@ -40,6 +40,9 @@ This is a responsive portfolio using Bootstrap CSS and semantic HTML
 - center buttons on 1st two portfolio cards
 - make contact form functional
 
+### Revision 9/3/2020
+- improve resume embed
+
 ## Comment on HTML validation
 
 - most trouble came from HTML tags not being properly named or nested

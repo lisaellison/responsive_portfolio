@@ -1,11 +1,3 @@
-body {
-  font-size: large;
-}
-
-p {
-  margin-right: 1rem;
-  font-size: large;
-}
 
 .textLink {
   color: #a641b8;
@@ -13,4 +5,70 @@ p {
 
 .textLinkDark {
   color: #53205b;
+}
+
+.btn {
+  background-color: #113280;
+  color: white;
+}
+
+.card {
+  background-color: whitesmoke;
+}
+
+.btn1 {
+  background-color: #412016;
+}
+
+.bg1 {
+  background-color: #EDC177
+}
+
+.btn2 {
+  background-color: #113280
+}
+
+.bg2 {
+  background-color: #D1CAB7
+}
+
+.btn3 {
+  background-color: #3BBC9C
+}
+
+.bg3 {
+  background-color: #FFFFFF
+}
+
+.btn4 {
+  background-color: #11434A
+}
+
+.bg4 {
+  background-color: #010205;
+  color: #F5F5F5
+}
+
+.btn5 {
+  background-color: #EC6E4C
+}
+
+.bg5 {
+  background-color: #F8F9FA
+}
+
+.btn6 {
+  background-color: #F40005
+}
+
+.bg6 {
+  background-color: #E9ECEF
+}
+
+.btn7 {
+  background-color: #EB5B6F
+}
+
+.bg7 {
+  background-color: #8A9457;
 }
